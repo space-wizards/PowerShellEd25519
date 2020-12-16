@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  	<AssemblyName>PowerShellEd25519</AssemblyName>
+  	<DefaultNamespace>PowerShellEd25519</DefaultNamespace>
+
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSec.Cryptography" Version="20.2.0" />
+    <PackageReference Include="PowerShellStandard.Library" Version="7.0.0-preview.1">
+        <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
